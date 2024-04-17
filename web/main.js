@@ -1,9 +1,7 @@
 // Lista de names
 const names = [
-    "Alana Motta da Cruz",
-    "Aline Birck Bourscheidt Bays",
-    "Joyce Mayara Gonçalves de Oliveira",
-    "Lyene de Souza Benvenutti"
+    "Karime Arrigo Rodrigues Kumagai",
+    "Lorena Negrão de Melo"
   ];
   
   function addNameToBody(name) {
@@ -37,15 +35,12 @@ function funnyButton() {
     button.addEventListener('click', function() {
         const container = document.createElement('div')
         const img = document.createElement('img');
-        img.src = 'https://pbs.twimg.com/media/EgmOqHTWoAAKOPt.jpg';
+        img.src = 'https://s3.glbimg.com/v1/AUTH_35862ca5c6ab48b992baf1f1b4f7062e/extra-globo-com/incoming/25426974-1a4-a7f/w448/dummy-3.jpg';
         container.appendChild(img);
         document.body.appendChild(container);
 
         button.remove();
 
-        const message = document.createElement('h2');
-        message.innerText = 'Nota 10 para o grupo 20, que tal?';
-        document.body.appendChild(message);
     });
 }
     displayNames();

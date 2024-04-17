@@ -4,11 +4,7 @@ body {
     font-style: normal;
 }
 
-h1,h2, div, img {
+h1, div, img {
   display: flex;
   justify-content: center;
-}
-
-h2 {
-  color: red;
 }
